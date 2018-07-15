@@ -1,0 +1,27 @@
+ServerSignature Off
+
+#Default Language Settings
+DefaultLanguage en
+
+#Disable directory listing 
+Options All -Indexes
+
+# Force download of files
+<FilesMatch "\.(doc|docx|xls|csv|txt|pdf)$">
+ ForceType application/octet-stream
+ Header set Content-Disposition attachment
+</FilesMatch>
+
+RewriteEngine on
+
+RewriteCond %{HTTPS} off
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+RewriteRule ^([^/]+)/?$ $1.php [NC,L]
+
+RewriteRule ^events/([^/]+)/([0-9]+)/?$ events.php?page=$2 [NC,L]
+
+RewriteRule ^event/([0-9]+)/([^/]+)/?$ event.php?id=$1 [NC,L]
