@@ -1,7 +1,7 @@
-    <header class="top_panel_wrap top_panel_style_3 scheme_original">
+    <header class="top_panel_wrap top_panel_style_2 scheme_original">
         <div class="top_panel_wrap_inner top_panel_inner_style_3 top_panel_position_above">
             <div class="top_panel_top">
-                <div class="content_wrap clearfix">
+                <div class="content_wrap clearfix" style="font-size: 14px;">
                     <div class="top_panel_top_contact_phone icon-phone"><a href="tel:<?php echo COMPANY_HOTLINE; ?>"><?php echo COMPANY_HOTLINE; ?></a></div>
                     <div class="top_panel_top_open_hours icon-clock"><a href=""><?php echo strip_tags(COMPANY_OPEN_HOURS); ?></a></div>
                     <div class="top_panel_top_contact_email">
@@ -16,7 +16,8 @@
                     <div class="columns_wrap columns_fluid">
                         <div class="column-2_4 contact_logo">
                             <div class="logo">
-                                <h1 style="font-family: 'Warnes', cursive; margin-bottom: 0px;">Kal's Concrete</h1>
+                                <h1 class="logo_main" style="font-family: 'Warnes', cursive; margin-bottom: 0px;"><a href="">Kal's Concrete</a></h1>
+                                <div>Quality work for a good price..</div>
                             </div>
                         </div><div class="column-2_4 menu_main_wrap">
                             <a href="#" class="menu_main_responsive_button icon-menu"></a>

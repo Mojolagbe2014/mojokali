@@ -7,9 +7,9 @@
               <div id="rev_slider_2_1" class="rev_slider fullwidthabanner tp-overflow-hidden" style="display:none;" data-version="5.0.8.5">
                  <ul>
                     <!-- SLIDE  -->
-                    <li data-index="rs-4" data-transition="fade" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="<?php echo SITE_URL; ?>uploads/2015/10/Layer-81-100x50.jpg"  data-delay="10000"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
+                    <li data-index="rs-4" data-transition="slideboxes" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb=""  data-delay="<?php echo SLIDER_SPEED; ?>"   data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
                        <!-- MAIN IMAGE -->
-                       <img src="uploads/2015/10/Layer-81.jpg"  alt=""  width="1920" height="820" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                       <img src="images/5.jpg"  alt=""  width="1920" height="820" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                        <!-- LAYERS -->
                        <!-- LAYER NR. 1 -->
                        <div class="tp-caption   rs-parallaxlevel-2" 
@@ -41,7 +41,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 6; white-space: nowrap;">We create </div>
+                          style="z-index: 6; white-space: nowrap;">We do quality work for a good price </div>
                        <!-- LAYER NR. 3 -->
                        <div class="tp-caption Big-title   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-4-layer-3" 
@@ -57,12 +57,10 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 7; white-space: nowrap;text-align:center;">You<br>
-                          celebrate 
+                          style="z-index: 7; white-space: nowrap;text-align:center;">Talk to Kal for free estimate 
                        </div>
                        <!-- LAYER NR. 4 -->
-                       <div class="tp-caption Fashion-BigDisplay   tp-resizeme rs-parallaxlevel-0" 
-                          id="slide-4-layer-4" 
+                       <div class="tp-caption Fashion-BigDisplay  tp-resizeme rs-parallaxlevel-0" id="slide-4-layer-4" 
                           data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
                           data-y="['middle','middle','middle','middle']" data-voffset="['107','107','107','107']" 
                           data-width="none"
@@ -75,28 +73,13 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 8; white-space: nowrap;text-align:center;">Planning a Wedding, Proposal, or Event in our busy city is not so easy,<br>and it takes skills (and time) to make it all look easy-going </div>
-                       <!-- LAYER NR. 5 -->
-                       <div class="tp-caption Button   tp-resizeme rs-parallaxlevel-0" 
-                          id="slide-4-layer-5" 
-                          data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                          data-y="['middle','middle','middle','middle']" data-voffset="['220','220','220','220']" 
-                          data-width="182"
-                          data-height="none"
-                          data-whitespace="normal"
-                          data-transform_idle="o:1;"
-                          data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
-                          data-transform_out="opacity:0;s:300;s:300;" 
-                          data-start="2600" 
-                          data-splitin="none" 
-                          data-splitout="none" 
-                          data-responsive_offset="on" 
-                          style="z-index: 9; min-width: 182px; max-width: 182px; white-space: normal; font-size: 10px; line-height: 36px; font-weight: 700;font-family:Montserrat;text-align:center;"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled" >Online request</a> </div>
+                          style="z-index: 8; white-space: nowrap;text-align:center;font-size: 26px"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled quote_btn" >Get Free Estimate</a></div>
+                       
                     </li>
                     <!-- SLIDE  -->
-                    <li data-index="rs-5" data-transition="fade" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="<?php echo SITE_URL; ?>uploads/2015/11/Layer-81-100x50.jpg"  data-delay="10000"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
+                    <li data-index="rs-5" data-transition="fade" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb=""  data-delay="<?php echo SLIDER_SPEED; ?>"   data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
                        <!-- MAIN IMAGE -->
-                       <img src="uploads/2015/11/Layer-81.jpg"  alt=""  width="2065" height="820" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                       <img src="images/2.jpg"  alt=""  width="2065" height="820" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                        <!-- LAYERS -->
                        <!-- LAYER NR. 1 -->
                        <div class="tp-caption   rs-parallaxlevel-2" 
@@ -128,7 +111,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 6; white-space: nowrap;">From set up </div>
+                          style="z-index: 6; white-space: nowrap;">We do quality work for a good price </div>
                        <!-- LAYER NR. 3 -->
                        <div class="tp-caption Big-title   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-5-layer-3" 
@@ -144,8 +127,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 7; white-space: nowrap;text-align:center;">to<br>
-                          clean up 
+                          style="z-index: 7; white-space: nowrap;text-align:center;">Talk to Kal for free estimate
                        </div>
                        <!-- LAYER NR. 4 -->
                        <div class="tp-caption Fashion-BigDisplay   tp-resizeme rs-parallaxlevel-0" 
@@ -162,28 +144,84 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 8; white-space: nowrap;text-align:center;">Planning a Wedding, Proposal, or Event in our busy city is not so easy,<br>and it takes skills (and time) to make it all look easy-going </div>
-                       <!-- LAYER NR. 5 -->
-                       <div class="tp-caption Button   tp-resizeme rs-parallaxlevel-0" 
-                          id="slide-5-layer-5" 
-                          data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                          data-y="['middle','middle','middle','middle']" data-voffset="['220','220','220','220']" 
-                          data-width="182"
+                          style="z-index: 8; white-space: nowrap;text-align:center; font-size: 26px"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled quote_btn" >Get Free Estimate</a></div>
+                       
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-7" data-transition="slideboxes" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb=""  data-delay="<?php echo SLIDER_SPEED; ?>"   data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
+                       <!-- MAIN IMAGE -->
+                       <img src="images/8.jpg"  alt=""  width="2065" height="820" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                       <!-- LAYERS -->
+                       <!-- LAYER NR. 1 -->
+                       <div class="tp-caption   rs-parallaxlevel-2" 
+                          id="slide-7-layer-1" 
+                          data-x="['center','center','center','center']" data-hoffset="['2','2','2','2']" 
+                          data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+                          data-width="none"
                           data-height="none"
-                          data-whitespace="normal"
+                          data-whitespace="nowrap"
+                          data-transform_idle="o:1;"
+                          data-transform_in="opacity:0;s:300;e:Power2.easeInOut;" 
+                          data-transform_out="opacity:0;s:300;s:300;" 
+                          data-start="500" 
+                          data-responsive_offset="on" 
+                          data-responsive="off"
+                          style="z-index: 5;text-align:center;"><img src="uploads/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> </div>
+                       <!-- LAYER NR. 2 -->
+                       <div class="tp-caption Big-title-yellow   tp-resizeme rs-parallaxlevel-0" 
+                          id="slide-7-layer-2" 
+                          data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                          data-y="['middle','middle','middle','middle']" data-voffset="['-170','-170','-170','-170']" 
+                          data-width="none"
+                          data-height="none"
+                          data-whitespace="nowrap"
                           data-transform_idle="o:1;"
                           data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
                           data-transform_out="opacity:0;s:300;s:300;" 
-                          data-start="2600" 
+                          data-start="800" 
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 9; min-width: 182px; max-width: 182px; white-space: normal; font-size: 10px; line-height: 36px; font-weight: 700;font-family:Montserrat;text-align:center;"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled" >Online request</a> </div>
+                          style="z-index: 6; white-space: nowrap;">We do quality work for a good price </div>
+                       <!-- LAYER NR. 3 -->
+                       <div class="tp-caption Big-title   tp-resizeme rs-parallaxlevel-0" 
+                          id="slide-7-layer-3" 
+                          data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                          data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']" 
+                          data-width="none"
+                          data-height="none"
+                          data-whitespace="nowrap"
+                          data-transform_idle="o:1;"
+                          data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
+                          data-transform_out="opacity:0;s:300;s:300;" 
+                          data-start="1400" 
+                          data-splitin="none" 
+                          data-splitout="none" 
+                          data-responsive_offset="on" 
+                          style="z-index: 7; white-space: nowrap;text-align:center;">Talk to Kal for free estimate 
+                       </div>
+                       <!-- LAYER NR. 4 -->
+                       <div class="tp-caption Fashion-BigDisplay   tp-resizeme rs-parallaxlevel-0" 
+                          id="slide-5-layer-4" 
+                          data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                          data-y="['middle','middle','middle','middle']" data-voffset="['107','107','107','107']" 
+                          data-width="none"
+                          data-height="none"
+                          data-whitespace="nowrap"
+                          data-transform_idle="o:1;"
+                          data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
+                          data-transform_out="opacity:0;s:300;s:300;" 
+                          data-start="1980" 
+                          data-splitin="none" 
+                          data-splitout="none" 
+                          data-responsive_offset="on" 
+                          style="z-index: 8; white-space: nowrap;text-align:center; font-size: 26px"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled quote_btn" >Get Free Estimate</a> </div>
+                       
                     </li>
                     <!-- SLIDE  -->
-                    <li data-index="rs-6" data-transition="fade" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="<?php echo SITE_URL; ?>uploads/2015/11/Layer-82-100x50.jpg"  data-delay="10000"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
+                    <li data-index="rs-6" data-transition="fade" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="<?php echo SITE_URL; ?>uploads/2015/11/Layer-82-100x50.jpg"  data-delay="<?php echo SLIDER_SPEED; ?>"   data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
                        <!-- MAIN IMAGE -->
-                       <img src="uploads/2015/11/Layer-82.jpg"  alt=""  width="2042" height="820" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                       <img src="images/1.jpg"  alt=""  width="2042" height="820" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                        <!-- LAYERS -->
                        <!-- LAYER NR. 1 -->
                        <div class="tp-caption   rs-parallaxlevel-2" 
@@ -231,7 +269,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 7; white-space: nowrap;text-align:center;">You<br>create </div>
+                          style="z-index: 7; white-space: nowrap;text-align:center;">Talk to Kal for free estimate </div>
                        <!-- LAYER NR. 4 -->
                        <div class="tp-caption Fashion-BigDisplay   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-6-layer-4" 
@@ -247,23 +285,8 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 8; white-space: nowrap;text-align:center;">Planning a Wedding, Proposal, or Event in our busy city is not so easy,<br>and it takes skills (and time) to make it all look easy-going </div>
-                       <!-- LAYER NR. 5 -->
-                       <div class="tp-caption Button   tp-resizeme rs-parallaxlevel-0" 
-                          id="slide-6-layer-5" 
-                          data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                          data-y="['middle','middle','middle','middle']" data-voffset="['220','220','220','220']" 
-                          data-width="182"
-                          data-height="none"
-                          data-whitespace="normal"
-                          data-transform_idle="o:1;"
-                          data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
-                          data-transform_out="opacity:0;s:300;s:300;" 
-                          data-start="2600" 
-                          data-splitin="none" 
-                          data-splitout="none" 
-                          data-responsive_offset="on" 
-                          style="z-index: 9; min-width: 182px; max-width: 182px; white-space: normal; font-size: 10px; line-height: 36px; font-weight: 700;font-family:Montserrat;text-align:center;"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled" >Online request</a> </div>
+                          style="z-index: 8; white-space: nowrap;text-align:center;font-size: 26px"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled quote_btn" >Get Free Estimate</a> </div>
+                       
                     </li>
                  </ul>
                  <div class="tp-bannertimer" style="height: 5px; background-color: rgba(0, 0, 0, 0.15);"></div>

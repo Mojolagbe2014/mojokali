@@ -20,24 +20,24 @@
     width: auto;
 }
 .top_panel_middle .logo {
-    margin-top: 1.2em;
-    margin-bottom: 1.2em;
+    margin-top: 0.1em;
+    margin-bottom: 0.2em;
 }
 .menu_main_nav > li > a {
-   font-size: 13px;
+   font-size: 14px;
 }
 
-.top_panel_top_socials, .top_panel_top_contact_phone {
-    margin-top: 0.85em;
-}
 .top_panel_top_contact_phone {
     font-size: 100%;
 }
 
 
 .top_panel_middle .menu_main_wrap {
-    margin-top: 3.0em;
+    margin-top: 2.0em;
 }
+
+.logo_main a {color: #ea4e47;}
+.logo_main a:hover {color: #272530;}
 
 
 /* grid skin */
