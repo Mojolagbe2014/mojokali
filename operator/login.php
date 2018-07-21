@@ -13,7 +13,7 @@ $errorArr = array(); //Array of errors
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin Section - Vien Patrick Events</title>
+    <title>Admin Section</title>
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
     <link href="assets/css/custom.css" rel="stylesheet" />
@@ -26,7 +26,7 @@ $errorArr = array(); //Array of errors
             <div class="col-md-12">
                 <div id="messageBox"></div>
                 <br /><br />
-                <h2> Vien Patrick Events</h2>
+                <h2> Admin </h2>
                
                 <h5>( Login to get access )</h5>
                  <br />
