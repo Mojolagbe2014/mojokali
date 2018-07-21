@@ -83,6 +83,24 @@ img.wp-smiley, img.emoji { display: inline !important; border: none !important; 
     margin-top: 2.0em;
 }
 
-.logo_main a {color: #ea4e47;}
-.logo_main a:hover {color: #272530;}
+.logo a, .logo a h1 {color: #ea4e47;}
+.logo a:hover, .logo a h1:hover {color: #272530;}
 
+
+
+.logo_main {font-family: 'Warnes', cursive; margin-bottom: 0px;}
+
+
+@media screen and (max-width: 479px){
+    .logo_slogan { display: none;}
+    h1.logo_main, h1.logo_main { 
+        font-size: 28px;
+    }
+    
+    .responsive_menu .top_panel_middle .menu_main_responsive_button {
+        top: 0.9em;
+    }
+    .sidebar_outer_logo .logo_main, .top_panel_wrap .logo_main, .top_panel_wrap .logo_fixed {
+        height: 0px;
+    }
+}

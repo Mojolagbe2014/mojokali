@@ -72,12 +72,12 @@ require('includes/page-properties.php');
                                                         <?php
                                                         $handle = opendir('media/gallery/');
                                                         while($file = readdir($handle)){
-                                                            if($file !== '.' && $file !== '..'){
-                                                                //$filenameArray[] =  array(utf8_encode('<img style="width:40%; height:20%;" src="../media/gallery/'.$file.'">')));
-                                                        ?><div class="column-1_3">
+                                                            if($file !== '.' && $file !== '..' && strpos($file, '_tn.')===false && strpos($file, '.DS_Store')===false){
+                                                                $thumb = new ThumbNail("media/gallery/".$file, 300, 300);
+    //                                                  ?><div class="column-1_3">
                                                             <div class="sc_team_item sc_team_item_1 even">
                                                                 <div class="sc_team_item_avatar">
-                                                                    <a class="hover_icon hover_icon_view" href="<?php echo MEDIA_FILES_PATH1.'gallery/'.$file; ?>" title="<?php echo $file; ?>"><img class="wp-post-image" width="550" height="222" alt="<?php echo $file; ?>" src="<?php echo MEDIA_FILES_PATH1.'gallery/'.$file; ?>" itemprop="image"><br/><br/></a>
+                                                                    <a class="hover_icon hover_icon_view" href="<?php echo MEDIA_FILES_PATH1.'gallery/'.$file; ?>" title="<?php echo $file; ?>"><img class="wp-post-image" width="550" height="222" alt="<?php echo $file; ?>" src="<?php echo SITE_URL.$thumb; ?>" itemprop="image"><br/><br/></a>
                                                                 </div>
                                                             </div>
                                                         </div><?php }} ?>
