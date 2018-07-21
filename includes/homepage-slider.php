@@ -26,7 +26,7 @@
                           data-responsive_offset="on" 
                           data-responsive="off"
                           style="z-index: 5;text-align:center;"><img src="images/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> </div>
-                       <!-- LAYER NR. 2 -->
+                        <!-- LAYER NR. 2 -->
                        <div class="tp-caption Big-title-yellow   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-4-layer-2" 
                           data-x="['center','center','center','center']" data-hoffset="['1','1','1','1']" 
@@ -41,7 +41,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 6; white-space: nowrap;">We do quality work for a good price </div>
+                          style="z-index: 6; white-space: nowrap;">Talk to Kal</div>
                        <!-- LAYER NR. 3 -->
                        <div class="tp-caption Big-title   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-4-layer-3" 
@@ -57,7 +57,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 7; white-space: nowrap;text-align:center;">Talk to Kal for free estimate 
+                          style="z-index: 7; white-space: nowrap;text-align:center;">for <br>free estimate
                        </div>
                        <!-- LAYER NR. 4 -->
                        <div class="tp-caption Fashion-BigDisplay  tp-resizeme rs-parallaxlevel-0" id="slide-4-layer-4" 
@@ -73,7 +73,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 8; white-space: nowrap;text-align:center;font-size: 26px"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled quote_btn" >Get Free Estimate</a></div>
+                          style="z-index: 8; white-space: nowrap;text-align:center;font-size: 26px"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled quote_btn">GET FREE ESTIMATE</a></div>
                        
                     </li>
                     <!-- SLIDE  -->
@@ -111,7 +111,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 6; white-space: nowrap;">We do quality work for a good price </div>
+                          style="z-index: 6; white-space: nowrap;">Talk to Kal</div>
                        <!-- LAYER NR. 3 -->
                        <div class="tp-caption Big-title   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-5-layer-3" 
@@ -127,7 +127,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 7; white-space: nowrap;text-align:center;">Talk to Kal for free estimate
+                          style="z-index: 7; white-space: nowrap;text-align:center;">for <br> free estimate
                        </div>
                        <!-- LAYER NR. 4 -->
                        <div class="tp-caption Fashion-BigDisplay   tp-resizeme rs-parallaxlevel-0" 
@@ -144,7 +144,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 8; white-space: nowrap;text-align:center; font-size: 26px"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled quote_btn" >Get Free Estimate</a></div>
+                          style="z-index: 8; white-space: nowrap;text-align:center; font-size: 26px"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled quote_btn" >GET FREE ESTIMATE</a></div>
                        
                     </li>
                     <!-- SLIDE  -->
@@ -182,7 +182,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 6; white-space: nowrap;">We do quality work for a good price </div>
+                          style="z-index: 6; white-space: nowrap;">Talk to Kal </div>
                        <!-- LAYER NR. 3 -->
                        <div class="tp-caption Big-title   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-7-layer-3" 
@@ -198,7 +198,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 7; white-space: nowrap;text-align:center;">Talk to Kal for free estimate 
+                          style="z-index: 7; white-space: nowrap;text-align:center;">for <br> free estimate 
                        </div>
                        <!-- LAYER NR. 4 -->
                        <div class="tp-caption Fashion-BigDisplay   tp-resizeme rs-parallaxlevel-0" 
@@ -215,7 +215,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 8; white-space: nowrap;text-align:center; font-size: 26px"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled quote_btn" >Get Free Estimate</a> </div>
+                          style="z-index: 8; white-space: nowrap;text-align:center; font-size: 26px"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled quote_btn" >GET FREE ESTIMATE</a> </div>
                        
                     </li>
                     <!-- SLIDE  -->
@@ -269,7 +269,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 7; white-space: nowrap;text-align:center;">Talk to Kal for free estimate </div>
+                          style="z-index: 7; white-space: nowrap;text-align:center;">Talk to Kal</div>
                        <!-- LAYER NR. 4 -->
                        <div class="tp-caption Fashion-BigDisplay   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-6-layer-4" 
@@ -285,7 +285,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 8; white-space: nowrap;text-align:center;font-size: 26px"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled quote_btn" >Get Free Estimate</a> </div>
+                          style="z-index: 8; white-space: nowrap;text-align:center;font-size: 26px"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled quote_btn" >GET FREE ESTIMATE</a> </div>
                        
                     </li>
                  </ul>
