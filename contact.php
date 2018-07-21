@@ -33,7 +33,7 @@ if(isset($_POST['submit'])){
         $message->setTo(array($emailAddress => WEBSITE_AUTHOR));
         $message->setSubject($subject);
         $message->setBody($body);
-        $message->setFrom("noreply@vienpatrickevents.com", "Website Guest");
+        $message->setFrom("guest@kalsconcrete.ca", "Website Guest");
         $message->setContentType("text/html");
         $mailer = Swift_Mailer::newInstance($transport);
         $mailer->send($message);
