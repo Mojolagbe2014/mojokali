@@ -1174,7 +1174,7 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 .top_panel_top_contact_phone{
 	margin-left: 2.3em;
 	    font-size: 0.85em;
-    font-family: 'Montserrat';
+/*    font-family: 'Montserrat';*/
     font-weight: 700;
 }
 
@@ -2538,7 +2538,7 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 
 /* Quote */
 blockquote {
-    padding: 1.8em 1.5em 1.5em 5.45em;
+    padding: 1.7em;
     font-size: 1.286em;
     margin: 1.35em 0 1.35em 5em;
     border-radius: 30px;
@@ -2554,7 +2554,7 @@ blockquote, blockquote p {
 }
 blockquote:before {
 	font-family:'fontello';
-	content: '\e8b6';
+/*	content: '\e8b6';*/
 	display:block;
 	position:absolute;
 	z-index:1;

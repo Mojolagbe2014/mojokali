@@ -63,7 +63,7 @@ class WebPage {
     /** Method for dispalying error message  */
     function showError($error){
         if(is_array($error)){
-            $msg ="<p>Please attend to the following errors:</p><ul>";
+            $msg ="Please attend to the following errors:<ul>";
             foreach($error as $error){ $msg .="<li>".$error."</li>"; }     
             $msg .="</ul>";
         }

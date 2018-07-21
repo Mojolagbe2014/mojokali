@@ -25,7 +25,7 @@
                           data-start="500" 
                           data-responsive_offset="on" 
                           data-responsive="off"
-                          style="z-index: 5;text-align:center;"><img src="uploads/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> </div>
+                          style="z-index: 5;text-align:center;"><img src="images/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> </div>
                        <!-- LAYER NR. 2 -->
                        <div class="tp-caption Big-title-yellow   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-4-layer-2" 
@@ -95,7 +95,7 @@
                           data-start="500" 
                           data-responsive_offset="on" 
                           data-responsive="off"
-                          style="z-index: 5;text-align:center;"><img src="uploads/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> </div>
+                          style="z-index: 5;text-align:center;"><img src="images/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> </div>
                        <!-- LAYER NR. 2 -->
                        <div class="tp-caption Big-title-yellow   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-5-layer-2" 
@@ -166,7 +166,7 @@
                           data-start="500" 
                           data-responsive_offset="on" 
                           data-responsive="off"
-                          style="z-index: 5;text-align:center;"><img src="uploads/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> </div>
+                          style="z-index: 5;text-align:center;"><img src="images/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> </div>
                        <!-- LAYER NR. 2 -->
                        <div class="tp-caption Big-title-yellow   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-7-layer-2" 
@@ -219,7 +219,7 @@
                        
                     </li>
                     <!-- SLIDE  -->
-                    <li data-index="rs-6" data-transition="fade" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="<?php echo SITE_URL; ?>uploads/2015/11/Layer-82-100x50.jpg"  data-delay="<?php echo SLIDER_SPEED; ?>"   data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
+                    <li data-index="rs-6" data-transition="fade" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="<?php echo SITE_URL; ?>images/2015/11/Layer-82-100x50.jpg"  data-delay="<?php echo SLIDER_SPEED; ?>"   data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
                        <!-- MAIN IMAGE -->
                        <img src="images/1.jpg"  alt=""  width="2042" height="820" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                        <!-- LAYERS -->
@@ -237,7 +237,7 @@
                           data-start="500" 
                           data-responsive_offset="on" 
                           data-responsive="off"
-                          style="z-index: 5;text-align:center;"><img src="uploads/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> </div>
+                          style="z-index: 5;text-align:center;"><img src="images/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> </div>
                        <!-- LAYER NR. 2 -->
                        <div class="tp-caption Big-title-yellow   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-6-layer-2" 

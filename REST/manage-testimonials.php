@@ -15,14 +15,10 @@ if(!isset($_SESSION['VPELoggedInAdmin']) || !isset($_SESSION["VPEadminEmail"])){
 }
 else{
     if(filter_input(INPUT_POST, "addNewTestimonial") != NULL && filter_input(INPUT_POST, "addNewTestimonial")=="addNewTestimonial"){
-        $postVars = array('author', 'content', 'image'); // Form fields names
+        $postVars = array('author', 'content'); // Form fields names
         //Validate the POST variables and add up to error message if empty
         foreach ($postVars as $postVar){
             switch($postVar){
-                case 'image':   $testimonialObj->$postVar = basename($_FILES["image"]["name"]) ? rand(100000, 1000000)."_".  time().".".pathinfo(basename($_FILES["image"]["name"]),PATHINFO_EXTENSION): ""; 
-                                $testimonialImg = $testimonialObj->$postVar;
-                                if($testimonialObj->$postVar == "") {array_push ($errorArr, "Please enter $postVar ");}
-                                break;
                 default     :   $testimonialObj->$postVar = filter_input(INPUT_POST, $postVar) ? mysqli_real_escape_string($dbObj->connection, filter_input(INPUT_POST, $postVar)) :  ''; 
                                 if($testimonialObj->$postVar === "") {array_push ($errorArr, "Please enter $postVar ");}
                                 break;
@@ -30,32 +26,7 @@ else{
         }
         //If validated and not empty submit it to database
         if(count($errorArr) < 1)   {
-            
-            $target_file = MEDIA_FILES_PATH."testimonial/". $testimonialImg;
-            $uploadOk = 1; $msg = '';
-            if ($testimonialImg!='' && file_exists($target_file)) { $msg .= " testimonial image already exists."; $uploadOk = 0; }
-            if ($_FILES["image"]["size"] > 800000000) { $msg .= " testimonial image is too large."; $uploadOk = 0; }
-            if ($uploadOk == 0) {
-                $msg = "Sorry, your testimonial image was not uploaded. ERROR: ".$msg;
-                $json = array("status" => 0, "msg" => $msg); 
-                $dbObj->close();//Close Database Connection
-                header('Content-type: application/json');
-                echo json_encode($json);
-            } 
-            else {
-                if (move_uploaded_file($_FILES["image"]["tmp_name"], $target_file)) {
-                    $msg .= "The file ". basename( $_FILES["image"]["name"]). " has been uploaded.";
-                    $status = 'ok';
-                    echo $testimonialObj->add();
-                } else {
-                    $msg = " Sorry, there was an error uploading your testimonial image. ERROR: ".$msg;
-                    $json = array("status" => 0, "msg" => $msg); 
-                    $dbObj->close();//Close Database Connection
-                    header('Content-type: application/json');
-                    echo json_encode($json);
-                }
-            }
-
+            echo $testimonialObj->add();
         }
         //Else show error messages
         else{ 
@@ -89,14 +60,10 @@ else{
     }
     
     if(filter_input(INPUT_POST, "deleteThisTestimonial")!=NULL){
-        $postVars = array('id','image'); // Form fields names
+        $postVars = array('id'); // Form fields names
         //Validate the POST variables and add up to error message if empty
         foreach ($postVars as $postVar){
             switch($postVar){
-                case 'image':   $testimonialObj->$postVar = filter_input(INPUT_POST, $postVar) ? mysqli_real_escape_string($dbObj->connection, filter_input(INPUT_POST, $postVar)) :  ''; 
-                                $testimonialImg = $testimonialObj->$postVar;
-                                if($testimonialObj->$postVar === "") {array_push ($errorArr, "Please enter $postVar ");}
-                                break;
                 default     :   $testimonialObj->$postVar = filter_input(INPUT_POST, $postVar) ? mysqli_real_escape_string($dbObj->connection, filter_input(INPUT_POST, $postVar)) :  ''; 
                                 if($testimonialObj->$postVar === "") {array_push ($errorArr, "Please enter $postVar ");}
                                 break;
@@ -104,7 +71,6 @@ else{
         }
         //If validated and not empty submit it to database
         if(count($errorArr) < 1)   {
-            if($testimonialImg!='' && file_exists(MEDIA_FILES_PATH."testimonial/".$testimonialImg)){ unlink(MEDIA_FILES_PATH."testimonial/".$testimonialImg); }
             echo $testimonialObj->delete();
         }
         else{ 
@@ -117,29 +83,15 @@ else{
     } 
     
     if(filter_input(INPUT_POST, "addNewTestimonial") != NULL && filter_input(INPUT_POST, "addNewTestimonial")=="editTestimonial"){
-        $postVars = array('id', 'author', 'content', 'image'); // Form fields names
-        $oldMedia = $_REQUEST['oldFile'];
+        $postVars = array('id', 'author', 'content'); // Form fields names
         foreach ($postVars as $postVar){
             switch($postVar){
-                case 'image':   $newMedia = basename($_FILES["image"]["name"]) ? rand(100000, 1000000)."_". time().".".pathinfo(basename($_FILES["image"]["name"]),PATHINFO_EXTENSION): ""; 
-                                $testimonialObj->$postVar = $newMedia;
-                                if($testimonialObj->$postVar == "") { $testimonialObj->$postVar = $oldMedia;}
-                                $testimonialImg = $newMedia;
-                                break;
                 default     :   $testimonialObj->$postVar = filter_input(INPUT_POST, $postVar) ? mysqli_real_escape_string($dbObj->connection, filter_input(INPUT_POST, $postVar)) :  ''; 
                                 if($testimonialObj->$postVar === "") {array_push ($errorArr, "Please enter $postVar ");}
                                 break;
             }
         }
         if(count($errorArr) < 1)   {
-            $target_file = MEDIA_FILES_PATH."testimonial/". $testimonialImg;
-            $uploadOk = 1; $msg = '';
-            
-            
-            if($newMedia !=""){ 
-                move_uploaded_file($_FILES["image"]["tmp_name"], $target_file); 
-                if ($oldMedia!='' && file_exists(MEDIA_FILES_PATH."testimonial/".$oldMedia)) { unlink(MEDIA_FILES_PATH."testimonial/".$oldMedia); }
-            } 
             echo $testimonialObj->update();
         }
         else{ 

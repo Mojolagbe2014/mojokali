@@ -1443,7 +1443,7 @@ button.sc_button_size_large,
 .sc_form .sc_form_item.sc_form_button button { 
 	border: 2px solid #ddd;
 	font-family: Montserrat;
-	font-size: 0.714em;
+/*	font-size: 0.714em;*/
 	font-weight: 700;
 	text-align: center;
 	padding: 1.3em 3.8em;
@@ -2624,8 +2624,8 @@ ul.sc_list_style_iconed {
 -------------------------------------------------------------- */
 .sc_services_item .sc_services_item_title {
 	margin: 1.25em 0 1.25em 0;
-	font-size: 1.6em;
-	font-weight: 400;
+	font-size: 1.5em;
+	font-weight: 600;
 }
 .sc_services_item .sc_services_item_description {
 	line-height:1.75em;
@@ -2689,13 +2689,13 @@ font-size: 2.2rem;
 
 .sc_services_style_services-1 .sc_services_item {
 	text-align:center;
-	padding: 2.5em;
+	padding: 1.0em;
 	border-radius: 2em;
 	-webkit-border-radius: 2em;
 	-moz-border-radius: 2em;
 	overflow: hidden;
 	position: relative;
-	height: 14.15em;
+	height: 8.15em;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
@@ -4089,7 +4089,7 @@ font-size: 16px;
 .sc_testimonials_style_testimonials-1 .sc_testimonial_author_position {
 	display:block;
 	text-align:left;
-	font-size: 0.714em;
+/*	font-size: 0.714em;*/
 	font-family: 'Montserrat';
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -4258,7 +4258,7 @@ font-size: 16px;
 /* Style1 */
 .sc_title_style1 { 
 	font-family: 'Montserrat';
-	font-size: 0.714em;
+/*	font-size: 0.714em;*/
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 1px;

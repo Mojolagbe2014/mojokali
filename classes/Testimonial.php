@@ -8,7 +8,7 @@ class Testimonial implements ContentManipulator{
     private $id;
     private $content;
     private $author;
-    private $image;
+    private $image = '';
     private  static $dbObj;
     private static $tableName;
     
@@ -37,7 +37,7 @@ class Testimonial implements ContentManipulator{
     public function add(){
         $sql = "INSERT INTO ".self::$tableName." (content, author, image) "
                 ."VALUES ('{$this->content}','{$this->author}','{$this->image}')";
-        if($this->notEmpty($this->content,$this->author,$this->image)){
+        if($this->notEmpty($this->content,$this->author)){
             $result = self::$dbObj->query($sql);
             if($result !== false){ $json = array("status" => 1, "msg" => "Done, testimonial successfully added!"); }
             else{ $json = array("status" => 2, "msg" => "Error adding testimonial! ".  mysqli_error(self::$dbObj->connection)); }

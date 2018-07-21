@@ -21,3 +21,4 @@ define("COMPANY_OTHER_EMAILS", Setting::getValue($dbObj, 'COMPANY_OTHER_EMAILS')
 define("COMPANY_OPEN_HOURS", Setting::getValue($dbObj, 'COMPANY_OPEN_HOURS') ? trim(stripcslashes(strip_tags(Setting::getValue($dbObj, 'COMPANY_OPEN_HOURS')))) : '');
 define("SETTINGS_PANEL", Setting::getValue($dbObj, 'SETTINGS_PANEL') ? trim(stripcslashes(strip_tags(Setting::getValue($dbObj, 'SETTINGS_PANEL')))) : '');
 define("SLIDER_SPEED", Setting::getValue($dbObj, 'SLIDER_SPEED') ? trim(stripcslashes(strip_tags(Setting::getValue($dbObj, 'SLIDER_SPEED')))) : 5000);
+define("WARRANTY", Setting::getValue($dbObj, 'WARRANTY') ? trim(stripcslashes(strip_tags(Setting::getValue($dbObj, 'WARRANTY')))) : '');

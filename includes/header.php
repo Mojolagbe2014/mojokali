@@ -15,9 +15,12 @@
                 <div class="content_wrap">
                     <div class="columns_wrap columns_fluid">
                         <div class="column-2_4 contact_logo">
-                            <div class="logo">
+<!--                            <div class="logo">
                                 <h1 class="logo_main" style="font-family: 'Warnes', cursive; margin-bottom: 0px;"><a href="">Kal's Concrete</a></h1>
                                 <div>Quality work for a good price..</div>
+                            </div>-->
+                            <div class="logo">
+                                <a href="<?php echo SITE_URL; ?>"><img src="<?php echo SITE_URL; ?>images/logo.png" class="logo_main" alt=""><img src="<?php echo SITE_URL; ?>images/logo.png" class="logo_fixed" alt=""><div class="logo_slogan"></div></a>
                             </div>
                         </div><div class="column-2_4 menu_main_wrap">
                             <a href="#" class="menu_main_responsive_button icon-menu"></a>
