@@ -33,4 +33,5 @@
     <meta property="fb:admins" content="<?php echo FACEBOOK_ADMINS; ?>" />
     <meta property="fb:app_id" content="<?php echo FACEBOOK_APP_ID; ?>"/>
     <meta property="twitter_id" content="<?php echo TWITTER_ID; ?>"/>
+    <meta name="google-site-verification" content="X_2ecfMVAxITjm4UG7g9-RVqVqrppUPyzLRKHJ52QMM" />
     <?php echo utf8_decode(Setting::getValue($dbObj, 'ANALYTICS')); ?>

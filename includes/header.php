@@ -4,7 +4,7 @@
                 <div class="content_wrap clearfix">
                     <div class="top_panel_top_contact_phone icon-phone"><a href="tel:<?php echo COMPANY_HOTLINE; ?>"><?php echo COMPANY_HOTLINE; ?></a></div>
                     <div class="top_panel_top_open_hours icon-clock"><a href=""><?php echo strip_tags(COMPANY_OPEN_HOURS); ?></a></div>
-                    <div class="top_panel_top_contact_email">
+                    <div class="top_panel_top_contact_email icon-mail">
                         <a class="__cf_email__" href="mailto:<?php echo COMPANY_EMAIL; ?>"><?php echo COMPANY_EMAIL; ?></a>
                     </div>
                     <div class="top_panel_top_user_area">   <ul id="menu_user" class="menu_user_nav"> </ul> </div>					

@@ -74,8 +74,8 @@ img.wp-smiley, img.emoji { display: inline !important; border: none !important; 
    font-size: 14px;
 }
 
-.top_panel_top_contact_phone {
-    font-size: 100%;
+.top_panel_top_contact_phone, .top_panel_top_open_hours, .top_panel_top_contact_email {
+    font-size: 25px;
 }
 
 

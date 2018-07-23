@@ -1167,7 +1167,7 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 }
 .top_panel_top_open_hours {
 	float:right;
-	margin-top:0.65em;
+	margin-top:0.25em;
 	margin-left:3em;
 }
 
@@ -1188,14 +1188,14 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 .top_panel_top_socials,
 .top_panel_top_contact_phone  {
 	float:right;
-	margin-top:0.65em;
+	margin-top:0.25em;
 }
 
 .top_panel_top_search,
 .menu_user_nav,
 .top_panel_top_contact_email {
 	float:left;
-	margin-top:0.65em;
+	margin-top:0.25em;
 }
 .top_panel_top_search {
 	padding-top: 0.2em;
@@ -1529,8 +1529,8 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 	text-align:left;
 }
 .logo_slogan {
-    font-size: 0.929em;
-    line-height: 3.2em;
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
 .responsive_menu .top_panel_middle .logo,
 .menu_relayout .top_panel_middle .logo {

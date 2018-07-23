@@ -11,16 +11,6 @@
                         </ul>
                     </li>
                     <?php } ?>
-                    <li> <a href="#"><i class="fa fa-bell-o fa-2x"></i> Events Manager<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li> <a href="manage-events">Manage Events</a> </li>
-                        </ul>
-                    </li>
-                    <li> <a href="#"><i class="fa fa-check-circle-o fa-2x"></i> Testimonials Manager<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li> <a href="manage-testimonials">Manage Testimonials</a> </li>
-                        </ul>
-                    </li>
                     <li> <a href="#"><i class="fa fa-picture-o fa-2x"></i> Gallery Manager<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li> <a href="add-gallery-image">Add Images</a> </li>

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 21, 2018 at 08:58 PM
+-- Generation Time: Jul 23, 2018 at 10:58 AM
 -- Server version: 5.6.37
 -- PHP Version: 5.6.31
 
@@ -204,11 +204,8 @@ CREATE TABLE IF NOT EXISTS `webpage` (
 INSERT INTO `webpage` (`id`, `name`, `title`, `description`, `keywords`) VALUES
 (1, 'home', 'Home', 'We are a consulting and training firm / provider in Nigeria. We offer open programmes, bespoke and implant management training courses in Nigeria.', 'group, home'),
 (2, 'contact', 'Contact Us', 'Contact us', 'contact, enquiries'),
-(5, 'event-detail', 'Event Details', 'Event description', 'event, detail'),
 (7, 'about', 'About Us', 'About Us', 'about, impact, consulting, management'),
-(8, 'gallery', 'Our Events Gallery', 'Events gallery - photos and images', 'gallery, photo, image'),
-(14, 'events', 'Events Archive', 'All organized events. ', 'event, archive'),
-(21, 'event', 'Event Detail', 'Details of this event', 'event, detail'),
+(8, 'gallery', 'Our Gallery', 'Gallery - photos and images', 'gallery, photo, image'),
 (22, 'services', 'Our Services', 'Our services', 'service');
 
 --

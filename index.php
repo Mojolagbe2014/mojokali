@@ -218,35 +218,7 @@ if(isset($_POST['submit'])){
                                  </div>
                               </div>
                            </div>
-                           <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1446032902066">
-                              <div class="wpb_column vc_column_container vc_col-sm-12">
-                                 <div class="wpb_wrapper">
-                                    <div class="sc_content content_wrap" style="padding-bottom:1em;">
-                                       <h2 class="sc_title sc_title_underline sc_align_center margin_top_small margin_bottom_tiny" style="text-align:center;">Testimonials</h2>
-                                       <h6 class="sc_title sc_title_style1 sc_align_center margin_bottom_medium" style="text-align:center;"><span class="sc_title_style1_before"></span>Happy clients<span class="sc_title_style1_after"></span></h6>
-                                       <div id="sc_testimonials_1173590356" class="sc_testimonials sc_testimonials_style_testimonials-1  sc_slider_swiper swiper-slider-container sc_slider_nopagination sc_slider_controls sc_slider_controls_bottom margin_bottom_medium" data-interval="70000" data-slides-per-view="3" style="width:100%;">
-                                          <div class="slides swiper-wrapper">
-                                            <?php 
-                                              $totDisplTest = Setting::getValue($dbObj, 'TOTAL_DISPLAYABLE_TESTIMONIAL') ? trim(stripcslashes(strip_tags(Setting::getValue($dbObj, 'TOTAL_DISPLAYABLE_TESTIMONIAL')))) : 50;
-                                              foreach($testimonialObj->fetchRaw("*", " 1=1 ", " RAND() LIMIT $totDisplTest") as $testimonial) { 
-                                            ?>
-                                             <div class="swiper-slide" data-style="width:100%;" style="width:100%;">
-                                                <div id="sc_testimonials_1173590356_1" class="sc_testimonial_item">
-                                                   <div class="sc_testimonial_content">
-                                                      <p><?php echo $testimonial['content']; ?></p>
-                                                   </div>
-                                                   <div class="sc_testimonial_author"><span class="sc_testimonial_author_name"><?php echo $testimonial['author']; ?></span></div>
-                                                </div>
-                                             </div>
-                                             <?php } ?>
-                                          </div>
-                                          <div class="sc_slider_controls_wrap"><a class="sc_slider_prev" href="#"></a><a class="sc_slider_next" href="#"></a></div>
-                                          <div class="sc_slider_pagination_wrap"></div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+                           
                            <div class="vc_row-full-width"></div>
                            <div id="form-parallax" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1446813363327 vc_row-no-padding">
                               <div class="wpb_column vc_column_container vc_col-sm-12">

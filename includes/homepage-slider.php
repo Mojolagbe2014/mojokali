@@ -25,7 +25,7 @@
                           data-start="500" 
                           data-responsive_offset="on" 
                           data-responsive="off"
-                          style="z-index: 5;text-align:center;"><img src="images/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> </div>
+                          style="z-index: 5;text-align:center;"></div>
                         <!-- LAYER NR. 2 -->
                        <div class="tp-caption Big-title-yellow   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-4-layer-2" 
@@ -57,7 +57,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 7; white-space: nowrap;text-align:center;">for <br>free estimate
+                          style="z-index: 7; white-space: nowrap;text-align:center;">for a <br>free estimate
                        </div>
                        <!-- LAYER NR. 4 -->
                        <div class="tp-caption Fashion-BigDisplay  tp-resizeme rs-parallaxlevel-0" id="slide-4-layer-4" 
@@ -95,7 +95,7 @@
                           data-start="500" 
                           data-responsive_offset="on" 
                           data-responsive="off"
-                          style="z-index: 5;text-align:center;"><img src="images/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> </div>
+                          style="z-index: 5;text-align:center;"></div>
                        <!-- LAYER NR. 2 -->
                        <div class="tp-caption Big-title-yellow   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-5-layer-2" 
@@ -127,7 +127,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 7; white-space: nowrap;text-align:center;">for <br> free estimate
+                          style="z-index: 7; white-space: nowrap;text-align:center;">for a <br> free estimate
                        </div>
                        <!-- LAYER NR. 4 -->
                        <div class="tp-caption Fashion-BigDisplay   tp-resizeme rs-parallaxlevel-0" 
@@ -166,7 +166,7 @@
                           data-start="500" 
                           data-responsive_offset="on" 
                           data-responsive="off"
-                          style="z-index: 5;text-align:center;"><img src="images/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> </div>
+                          style="z-index: 5;text-align:center;"></div>
                        <!-- LAYER NR. 2 -->
                        <div class="tp-caption Big-title-yellow   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-7-layer-2" 
@@ -198,7 +198,7 @@
                           data-splitin="none" 
                           data-splitout="none" 
                           data-responsive_offset="on" 
-                          style="z-index: 7; white-space: nowrap;text-align:center;">for <br> free estimate 
+                          style="z-index: 7; white-space: nowrap;text-align:center;">for a <br> free estimate 
                        </div>
                        <!-- LAYER NR. 4 -->
                        <div class="tp-caption Fashion-BigDisplay   tp-resizeme rs-parallaxlevel-0" 
@@ -237,7 +237,7 @@
                           data-start="500" 
                           data-responsive_offset="on" 
                           data-responsive="off"
-                          style="z-index: 5;text-align:center;"><img src="images/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> </div>
+                          style="z-index: 5;text-align:center;"></div>
                        <!-- LAYER NR. 2 -->
                        <div class="tp-caption Big-title-yellow   tp-resizeme rs-parallaxlevel-0" 
                           id="slide-6-layer-2" 
