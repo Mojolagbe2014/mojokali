@@ -16,12 +16,12 @@ require('includes/page-properties.php');
 <html lang="en-US" class="scheme_original">
 <head>
     <?php include('includes/meta-tags.php'); ?>
-    <link rel='stylesheet' href='<?php echo SITE_URL; ?>plugins/essential-grid/public/assets/css/settingsa7f4.css?ver=2.0.8' type='text/css' media='all' />
+    <link rel='stylesheet' href='<?php echo SITE_URL; ?>plugins/assets/css/settingsa7f4.css?ver=2.0.8' type='text/css' media='all' />
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800&amp;ver=4.3.2' type='text/css' media='all' />
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Raleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&amp;ver=4.3.2' type='text/css' media='all' />
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700&amp;ver=4.3.2' type='text/css' media='all' />
     <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css?1&amp;ver=4.2.0' type='text/css' media='all' />
-    <link rel='stylesheet' href='<?php echo SITE_URL; ?>plugins/revslider/public/assets/css/settingsb97d.css?ver=5.0.8.5' type='text/css' media='all' />
+    <link rel='stylesheet' href='<?php echo SITE_URL; ?>plugins/assets/css/settingsb97d.css?ver=5.0.8.5' type='text/css' media='all' />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Warnes" type='text/css' media='all'>
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Vidaloka:400|Open+Sans:300,300italic,400,400italic,700,700italic|Montserrat:300,300italic,400,400italic,700,700italic&amp;subset=latin,latin-ext' type='text/css' media='all' />
     <link rel='stylesheet' href='<?php echo SITE_URL; ?>themes/css/fontello/css/fontello.css' type='text/css' media='all' />
@@ -34,22 +34,19 @@ require('includes/page-properties.php');
     <link rel='stylesheet' href='<?php echo SITE_URL; ?>themes/skins/default/skin.responsive.css' type='text/css' media='all' />
     <link rel='stylesheet' href='<?php echo SITE_URL; ?>js/mediaelement/mediaelementplayer.min0392.css?ver=2.17.0' type='text/css' media='all' />
     <link rel='stylesheet' href='<?php echo SITE_URL; ?>js/mediaelement/wp-mediaelement274c.css?ver=4.3.2' type='text/css' media='all' />
-    <link rel='stylesheet' href='<?php echo SITE_URL; ?>plugins/js_composer/assets/css/js_composer.mina288.css?ver=4.8.1' type='text/css' media='all' />
+    <link rel='stylesheet' href='<?php echo SITE_URL; ?>plugins/assets/css/js_composer.mina288.css?ver=4.8.1' type='text/css' media='all' />
     <script type='text/javascript' src='<?php echo SITE_URL; ?>js/jquery/jqueryc1d8.js?ver=1.11.3'></script>
     <script type='text/javascript' src='<?php echo SITE_URL; ?>js/jquery/jquery-migrate.min1576.js?ver=1.2.1'></script>
-    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/essential-grid/public/assets/js/lightboxa7f4.js?ver=2.0.8'></script>
-    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/essential-grid/public/assets/js/jquery.themepunch.tools.mina7f4.js?ver=2.0.8'></script>
-    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/essential-grid/public/assets/js/jquery.themepunch.essential.mina7f4.js?ver=2.0.8'></script>
-    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/revslider/public/assets/js/jquery.themepunch.revolution.minb97d.js?ver=5.0.8.5'></script>
-    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/woocommerce/assets/js/frontend/add-to-cart.min18f6.js?ver=2.4.12'></script>
-    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/js_composer/assets/js/vendors/woocommerce-add-to-carta288.js?ver=4.8.1'></script>
+    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/assets/js/lightboxa7f4.js?ver=2.0.8'></script>
+    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/assets/js/jquery.themepunch.tools.mina7f4.js?ver=2.0.8'></script>
+    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/assets/js/jquery.themepunch.essential.mina7f4.js?ver=2.0.8'></script>
+    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/assets/js/jquery.themepunch.revolution.minb97d.js?ver=5.0.8.5'></script>
     <script type='text/javascript' src='<?php echo SITE_URL; ?>themes/fw/js/photostack/modernizr.min.js'></script>
     <link href="<?php echo SITE_URL; ?>sweet-alert/sweetalert.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo SITE_URL; ?>sweet-alert/google.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo SITE_URL; ?>css/additional-style.css" rel="stylesheet" type="text/css"/>
 </head>
-<body class="page page-id-1260 page-template-default unicaevents_body body_style_wide body_filled theme_skin_default article_style_stretch layout_single-standard template_single-standard top_panel_show top_panel_above sidebar_hide sidebar_outer_hide wpb-js-composer js-comp-ver-4.8.1 vc_responsive">
-  <a id="toc_home" class="sc_anchor" title="Home" data-description="&lt;i&gt;Return to Home&lt;/i&gt; - &lt;br&gt;navigate to home page of the site" data-icon="icon-home" data-url="http://unicaevents.ancorathemes.com" data-separator="yes"></a><a id="toc_top" class="sc_anchor" title="To Top" data-description="&lt;i&gt;Back to top&lt;/i&gt; - &lt;br&gt;scroll to top of the page" data-icon="icon-double-up" data-url="" data-separator="yes"></a>
+<body class="page page-id-1260 page-template-default body_style_wide body_filled theme_skin_default article_style_stretch layout_single-standard template_single-standard top_panel_show top_panel_above sidebar_hide sidebar_outer_hide wpb-js-composer js-comp-ver-4.8.1 vc_responsive">
   <div class="body_wrap" style="background-color: #CD714F;">
      <div class="page_wrap">
         <div class="top_panel_fixed_wrap"></div>
@@ -111,11 +108,11 @@ require('includes/page-properties.php');
     
     <script type="text/javascript" src="<?php echo SITE_URL; ?>js/settings.js"></script>
     <link rel='stylesheet' href='<?php echo SITE_URL; ?>themes/fw/js/core.messages/core.messages.css' type='text/css' media='all' />
-    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/woocommerce/assets/js/select2/select2.min49eb.js?ver=3.5.2'></script>
-    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'></script>
-    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/woocommerce/assets/js/frontend/woocommerce.min18f6.js?ver=2.4.12'></script>
-    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min330a.js?ver=1.4.1'></script>
-    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/woocommerce/assets/js/frontend/cart-fragments.min18f6.js?ver=2.4.12'></script>
+    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/assets/js/select2/select2.min49eb.js?ver=3.5.2'></script>
+    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'></script>
+    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/assets/js/frontend/woocommerce.min18f6.js?ver=2.4.12'></script>
+    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/assets/js/jquery-cookie/jquery.cookie.min330a.js?ver=1.4.1'></script>
+    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/assets/js/frontend/cart-fragments.min18f6.js?ver=2.4.12'></script>
     <script type='text/javascript' src='<?php echo SITE_URL; ?>themes/fw/js/superfish.min.js'></script>
     <script type='text/javascript' src='<?php echo SITE_URL; ?>themes/fw/js/jquery.slidemenu.js'></script>
     <script type='text/javascript' src='<?php echo SITE_URL; ?>themes/fw/js/core.utils.js'></script>
@@ -126,7 +123,7 @@ require('includes/page-properties.php');
     <script type='text/javascript' src='<?php echo SITE_URL; ?>themes/fw/js/social/social-share.js'></script>
     <script type='text/javascript' src='<?php echo SITE_URL; ?>themes/fw/js/core.debug.js'></script>
     <script type='text/javascript' src='<?php echo SITE_URL; ?>themes/shortcodes/theme.shortcodes.js'></script>
-    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/js_composer/assets/js/js_composer_fronta288.js?ver=4.8.1'></script>
+    <script type='text/javascript' src='<?php echo SITE_URL; ?>plugins/assets/js/js_composer_fronta288.js?ver=4.8.1'></script>
     <script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false'></script>
     <script type='text/javascript' src='<?php echo SITE_URL; ?>themes/fw/js/core.googlemap.js'></script>
     <script type='text/javascript' src='<?php echo SITE_URL; ?>themes/fw/js/core.messages/core.messages.js'></script>
