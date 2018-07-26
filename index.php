@@ -51,18 +51,17 @@ if(isset($_POST['submit'])){
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Raleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&amp;ver=4.3.2' type='text/css' media='all' />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Warnes" type='text/css' media='all'>
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700&amp;ver=4.3.2' type='text/css' media='all' />
-    <link rel='stylesheet' href='plugins/instagram-feed/css/sb-instagram6895.css?ver=1.3.11' type='text/css' media='all' />
     <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css?1&amp;ver=4.2.0' type='text/css' media='all' />
     <link rel='stylesheet' href='plugins/revslider/public/assets/css/settingsb97d.css?ver=5.0.8.5' type='text/css' media='all' />
     <link rel='stylesheet' href='http://fonts.googleapis.com/css6646.css?family=Vidaloka:400|Open+Sans:300,300italic,400,400italic,700,700italic|Montserrat:300,300italic,400,400italic,700,700italic&amp;subset=latin,latin-ext' type='text/css' media='all' />
-    <link rel='stylesheet' href='themes/unicaevents/css/fontello/css/fontello.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='themes/unicaevents/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='themes/unicaevents/fw/css/core.animation.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='themes/unicaevents/shortcodes/theme.shortcodes.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='themes/unicaevents/skins/default/skin.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='themes/unicaevents/fw/css/custom-style.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='themes/unicaevents/css/responsive.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='themes/unicaevents/skins/default/skin.responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='themes/css/fontello/css/fontello.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='themes/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='themes/fw/css/core.animation.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='themes/shortcodes/theme.shortcodes.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='themes/skins/default/skin.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='themes/fw/css/custom-style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='themes/css/responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='themes/skins/default/skin.responsive.css' type='text/css' media='all' />
     <link rel='stylesheet' href='js/mediaelement/mediaelementplayer.min0392.css?ver=2.17.0' type='text/css' media='all' />
     <link rel='stylesheet' href='js/mediaelement/wp-mediaelement274c.css?ver=4.3.2' type='text/css' media='all' />
     <link rel='stylesheet' href='plugins/js_composer/assets/css/js_composer.mina288.css?ver=4.8.1' type='text/css' media='all' />
@@ -74,15 +73,15 @@ if(isset($_POST['submit'])){
     <script type='text/javascript' src='plugins/revslider/public/assets/js/jquery.themepunch.revolution.minb97d.js?ver=5.0.8.5'></script>
     <script type='text/javascript' src='plugins/woocommerce/assets/js/frontend/add-to-cart.min18f6.js?ver=2.4.12'></script>
     <script type='text/javascript' src='plugins/js_composer/assets/js/vendors/woocommerce-add-to-carta288.js?ver=4.8.1'></script>
-    <script type='text/javascript' src='themes/unicaevents/fw/js/photostack/modernizr.min.js'></script>
+    <script type='text/javascript' src='themes/fw/js/photostack/modernizr.min.js'></script>
     <script type="text/javascript" src="plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script type="text/javascript" src="plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
     <script type="text/javascript" src="plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js"></script>
     <script type="text/javascript" src="plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js"></script>
     <link href="css/additional-style.css?<?php echo time() ?>" rel="stylesheet" type="text/css"/>
     <link rel='stylesheet' id='themepunchboxextcss-css'  href='plugins/essential-grid/public/assets/css/lightboxa7f4.css?ver=2.0.8' type='text/css' media='all' />
-    <link rel='stylesheet' id='unicaevents-swiperslider-style-css'  href='themes/unicaevents/fw/js/swiper/swiper.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='unicaevents-messages-style-css'  href='themes/unicaevents/fw/js/core.messages/core.messages.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='unicaevents-swiperslider-style-css'  href='themes/fw/js/swiper/swiper.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='unicaevents-messages-style-css'  href='themes/fw/js/core.messages/core.messages.css' type='text/css' media='all' />
 
 
     <link href="<?php echo SITE_URL; ?>sweet-alert/sweetalert.css" rel="stylesheet" type="text/css"/>
@@ -339,32 +338,31 @@ if(isset($_POST['submit'])){
     <a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a>
     <div class="custom_html_section"></div>
 
-    <script type="text/javascript">function eggbfc(e,t){var a=e,o=0,i=9999,n=0,r=0,s=0,d=0,l=0,h=[{width:1400,amount:4},{width:1170,amount:4},{width:1024,amount:4},{width:960,amount:3},{width:778,amount:3},{width:640,amount:3},{width:480,amount:1}];void 0!=h&&h.length>0&&jQuery.each(h,function(e,t){var h=void 0!=t.width?t.width:0,c=void 0!=t.amount?t.amount:0;i>h&&(i=h,r=c,l=e),h>n&&(n=h,lamount=c),h>o&&a>=h&&(o=h,s=c,d=e)}),i>e&&(s=r,d=l);var c=new Object;return c.index=d,c.column=s,"id"==t?c:s}var coh=0,container=jQuery("#esg-grid-1-1"),cwidth=container.width(),ar="1:1",gbfc=eggbfc(jQuery(window).width(),"id"),row=1;ar=ar.split(":"),aratio=parseInt(ar[0],0)/parseInt(ar[1],0),coh=cwidth/aratio,coh=coh/gbfc.column*row;var ul=container.find("ul").first();ul.css({display:"block",height:coh+"px"});var essapi_1;jQuery(document).ready(function(){essapi_1=jQuery("#esg-grid-1-1").tpessential({gridID:1,layout:"even",forceFullWidth:"off",lazyLoad:"off",row:1,loadMoreAjaxToken:"f60249297e",loadMoreAjaxUrl:"<?php echo SITE_URL; ?>/wp-admin/admin-ajax.php",loadMoreAjaxAction:"Essential_Grid_Front_request_ajax",ajaxContentTarget:"ess-grid-ajax-container-",ajaxScrollToOffset:"0",ajaxCloseButton:"off",ajaxContentSliding:"on",ajaxScrollToOnLoad:"on",ajaxNavButton:"off",ajaxCloseType:"type1",ajaxCloseInner:"false",ajaxCloseStyle:"light",ajaxClosePosition:"tr",space:20,pageAnimation:"fade",paginationScrollToTop:"off",spinner:"spinner0",evenGridMasonrySkinPusher:"off",lightBoxMode:"single",animSpeed:1e3,delayBasic:1,mainhoverdelay:1,filterType:"single",showDropFilter:"hover",filterGroupClass:"esg-fgc-1",googleFonts:["Open+Sans:300,400,600,700,800","Raleway:100,200,300,400,500,600,700,800,900","Droid+Serif:400,700"],aspectratio:"1:1",responsiveEntries:[{width:1400,amount:4},{width:1170,amount:4},{width:1024,amount:4},{width:960,amount:3},{width:778,amount:3},{width:640,amount:3},{width:480,amount:1}]});try{jQuery("#esg-grid-1-1 .esgbox").esgbox({padding:[0,0,0,0],afterLoad:function(){if(this.element.hasClass("esgboxhtml5")){var e=this.element.data("mp4"),t=this.element.data("ogv"),a=this.element.data("webm");this.content='<div style="width:100%;height:100%;"><video autoplay="true" loop="" class="rowbgimage" poster="" width="100%" height="auto"><source src="'+e+'" type="video/mp4"><source src="'+a+'" type="video/webm"><source src="'+t+'" type="video/ogg"></video></div>';var o=setInterval(function(){jQuery(window).trigger("resize")},100);setTimeout(function(){clearInterval(o)},2500)}},beforeShow:function(){this.title=jQuery(this.element).attr("lgtitle"),this.title&&(this.title="",this.title='<div style="padding:0px 0px 0px 0px">'+this.title+"</div>")},afterShow:function(){},openEffect:"fade",closeEffect:"fade",nextEffect:"fade",prevEffect:"fade",openSpeed:"normal",closeSpeed:"normal",nextSpeed:"normal",prevSpeed:"normal",helpers:{media:{},title:{type:""}}})}catch(e){}});</script>
-    <script type="text/javascript">if (typeof UNICAEVENTS_GLOBALS == 'undefined') var UNICAEVENTS_GLOBALS = {};if (UNICAEVENTS_GLOBALS['theme_font']=='') UNICAEVENTS_GLOBALS['theme_font'] = 'Open Sans';UNICAEVENTS_GLOBALS['theme_skin_color'] = '#272530';UNICAEVENTS_GLOBALS['theme_skin_bg_color'] = '#ffffff';</script><script type="text/javascript">if (typeof UNICAEVENTS_GLOBALS == 'undefined') var UNICAEVENTS_GLOBALS = {};UNICAEVENTS_GLOBALS["strings"] = {ajax_error: 			"Invalid server answer",bookmark_add: 		"Add the bookmark",bookmark_added:		"Current page has been successfully added to the bookmarks. You can see it in the right panel on the tab &#039;Bookmarks&#039;",bookmark_del: 		"Delete this bookmark",bookmark_title:		"Enter bookmark title",bookmark_exists:		"Current page already exists in the bookmarks list",search_error:		"Error occurs in AJAX search! Please, type your query and press search icon for the traditional search way.",email_confirm:		"On the e-mail address &quot;%s&quot; we sent a confirmation email. Please, open it and click on the link.",reviews_vote:		"Thanks for your vote! New average rating is:",reviews_error:		"Error saving your vote! Please, try again later.",error_like:			"Error saving your like! Please, try again later.",error_global:		"Global error text",name_empty:			"The name can&#039;t be empty",name_long:			"Too long name",email_empty:			"Too short (or empty) email address",email_long:			"Too long email address",email_not_valid:		"Invalid email address",subject_empty:		"The subject can&#039;t be empty",subject_long:		"Too long subject",text_empty:			"The message text can&#039;t be empty",text_long:			"Too long message text",send_complete:		"Send message complete!",send_error:			"Transmit failed!",login_empty:			"The Login field can&#039;t be empty",login_long:			"Too long login field",login_success:		"Login success! The page will be reloaded in 3 sec.",login_failed:		"Login failed!",password_empty:		"The password can&#039;t be empty and shorter then 4 characters",password_long:		"Too long password",password_not_equal:	"The passwords in both fields are not equal",registration_success:"Registration success! Please log in!",registration_failed:	"Registration failed!",geocode_error:		"Geocode was not successful for the following reason:",googlemap_not_avail:	"Google map API not available!",editor_save_success:	"Post content saved!",editor_save_error:	"Error saving post data!",editor_delete_post:	"You really want to delete the current post?",editor_delete_post_header:"Delete post",editor_delete_success:	"Post deleted!",editor_delete_error:		"Error deleting post!",editor_caption_cancel:	"Cancel",editor_caption_close:	"Close"};</script><script type="text/javascript">if (typeof UNICAEVENTS_GLOBALS == 'undefined') var UNICAEVENTS_GLOBALS = {};UNICAEVENTS_GLOBALS['ajax_url']			 = 'wp-admin/admin-ajax.html';UNICAEVENTS_GLOBALS['ajax_nonce']		 = 'ea383efd1e';UNICAEVENTS_GLOBALS['ajax_nonce_editor'] = 'e716c75e80';UNICAEVENTS_GLOBALS['site_url']			= 'index.html';UNICAEVENTS_GLOBALS['vc_edit_mode']		= false;UNICAEVENTS_GLOBALS['theme_font']		= 'Open Sans';UNICAEVENTS_GLOBALS['theme_skin']			= 'default';UNICAEVENTS_GLOBALS['theme_skin_color']		= '#272530';UNICAEVENTS_GLOBALS['theme_skin_bg_color']	= '#ffffff';UNICAEVENTS_GLOBALS['slider_height']	= 100;UNICAEVENTS_GLOBALS['system_message']	= {message: '',status: '',header: ''};UNICAEVENTS_GLOBALS['user_logged_in']	= false;UNICAEVENTS_GLOBALS['toc_menu']		= 'float';UNICAEVENTS_GLOBALS['toc_menu_home']	= true;UNICAEVENTS_GLOBALS['toc_menu_top']	= true;UNICAEVENTS_GLOBALS['menu_fixed']		= false;UNICAEVENTS_GLOBALS['menu_relayout']	= 960;UNICAEVENTS_GLOBALS['menu_responsive']	= 959;UNICAEVENTS_GLOBALS['menu_slider']     = true;UNICAEVENTS_GLOBALS['demo_time']		= 0;UNICAEVENTS_GLOBALS['media_elements_enabled'] = true;UNICAEVENTS_GLOBALS['ajax_search_enabled'] 	= true;UNICAEVENTS_GLOBALS['ajax_search_min_length']	= 3;UNICAEVENTS_GLOBALS['ajax_search_delay']		= 200;UNICAEVENTS_GLOBALS['css_animation']      = true;UNICAEVENTS_GLOBALS['menu_animation_in']  = 'fadeInUp';UNICAEVENTS_GLOBALS['menu_animation_out'] = 'fadeOutDown';UNICAEVENTS_GLOBALS['popup_engine']	= 'pretty';UNICAEVENTS_GLOBALS['email_mask']		= '^([a-zA-Z0-9_\-]+\.)*[a-zA-Z0-9_\-]+@[a-z0-9_\-]+(\.[a-z0-9_\-]+)*\.[a-z]{2,6}$';UNICAEVENTS_GLOBALS['contacts_maxlength']	= 1000;UNICAEVENTS_GLOBALS['comments_maxlength']	= 1000;UNICAEVENTS_GLOBALS['remember_visitors_settings']	= false;UNICAEVENTS_GLOBALS['admin_mode']			= false;UNICAEVENTS_GLOBALS['isotope_resize_delta']	= 0.3;UNICAEVENTS_GLOBALS['error_message_box']	= null;UNICAEVENTS_GLOBALS['viewmore_busy']		= false;UNICAEVENTS_GLOBALS['video_resize_inited']	= false;UNICAEVENTS_GLOBALS['top_panel_height']		= 0;</script><link rel='stylesheet' id='vc_google_fonts_abril_fatfaceregular-css'  href='../fonts.googleapis.com/cssac1c.css?family=Abril+Fatface%3Aregular&amp;ver=4.3.2' type='text/css' media='all' />
+    <script src="js/settings.js" type="text/javascript"></script>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/cssac1c.css?family=Abril+Fatface%3Aregular&amp;ver=4.3.2' type='text/css' media='all' />
     <link rel='stylesheet' href='plugins/essential-grid/public/assets/css/lightboxa7f4.css?ver=2.0.8' type='text/css' media='all' />
-    <link rel='stylesheet' href='themes/unicaevents/fw/js/swiper/swiper.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='themes/unicaevents/fw/js/core.messages/core.messages.css' type='text/css' media='all' />
-    <script type='text/javascript' src='plugins/instagram-feed/js/sb-instagram6895.js?ver=1.3.11'></script>
+    <link rel='stylesheet' href='themes/fw/js/swiper/swiper.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='themes/fw/js/core.messages/core.messages.css' type='text/css' media='all' />
     <script type='text/javascript' src='plugins/woocommerce/assets/js/select2/select2.min49eb.js?ver=3.5.2'></script>
     <script type='text/javascript' src='plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'></script>
     <script type='text/javascript' src='plugins/woocommerce/assets/js/frontend/woocommerce.min18f6.js?ver=2.4.12'></script>
     <script type='text/javascript' src='plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min330a.js?ver=1.4.1'></script>
     <script type='text/javascript' src='plugins/woocommerce/assets/js/frontend/cart-fragments.min18f6.js?ver=2.4.12'></script>
-    <script type='text/javascript' src='themes/unicaevents/fw/js/superfish.min.js'></script>
-    <script type='text/javascript' src='themes/unicaevents/fw/js/jquery.slidemenu.js'></script>
-    <script type='text/javascript' src='themes/unicaevents/fw/js/core.utils.js'></script>
-    <script type='text/javascript' src='themes/unicaevents/fw/js/core.init.js'></script>
-    <script type='text/javascript' src='themes/unicaevents/js/theme.init.js'></script>
+    <script type='text/javascript' src='themes/fw/js/superfish.min.js'></script>
+    <script type='text/javascript' src='themes/fw/js/jquery.slidemenu.js'></script>
+    <script type='text/javascript' src='themes/fw/js/core.utils.js'></script>
+    <script type='text/javascript' src='themes/fw/js/core.init.js'></script>
+    <script type='text/javascript' src='themes/js/theme.init.js'></script>
     <script type='text/javascript' src='js/mediaelement/mediaelement-and-player.min0392.js?ver=2.17.0'></script>
     <script type='text/javascript' src='js/mediaelement/wp-mediaelement274c.js?ver=4.3.2'></script>
     <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDQ27WgInDdmdUlbeM_-CsTmfY_Jx0LCyg&libraries=places,geometry'></script>
-    <script type='text/javascript' src='themes/unicaevents/fw/js/core.googlemap.js'></script>
-    <script type='text/javascript' src='themes/unicaevents/fw/js/social/social-share.js'></script>
-    <script type='text/javascript' src='themes/unicaevents/fw/js/core.debug.js'></script>
-    <script type='text/javascript' src='themes/unicaevents/shortcodes/theme.shortcodes.js'></script>
+    <script type='text/javascript' src='themes/fw/js/core.googlemap.js'></script>
+    <script type='text/javascript' src='themes/fw/js/social/social-share.js'></script>
+    <script type='text/javascript' src='themes/fw/js/core.debug.js'></script>
+    <script type='text/javascript' src='themes/shortcodes/theme.shortcodes.js'></script>
     <script type='text/javascript' src='plugins/js_composer/assets/js/js_composer_fronta288.js?ver=4.8.1'></script>
-    <script type='text/javascript' src='themes/unicaevents/fw/js/swiper/swiper.jquery.js'></script>
-    <script type='text/javascript' src='themes/unicaevents/fw/js/core.messages/core.messages.js'></script>
+    <script type='text/javascript' src='themes/fw/js/swiper/swiper.jquery.js'></script>
+    <script type='text/javascript' src='themes/fw/js/core.messages/core.messages.js'></script>
     <?php if(!empty($msg)) {  $swalTitle = 'Message Sent!'; if($msgStatus!='success'){ $swalTitle = 'Message Not Sent!';}     ?>
     <script src="<?php echo SITE_URL; ?>sweet-alert/sweetalert.min.js" type="text/javascript"></script>
     <script>
