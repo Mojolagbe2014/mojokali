@@ -74,7 +74,7 @@ require('includes/page-properties.php');
     //                                                  ?><div class="column-1_3">
                                                             <div class="sc_team_item sc_team_item_1 even">
                                                                 <div class="sc_team_item_avatar">
-                                                                    <a class="hover_icon hover_icon_view" href="<?php echo MEDIA_FILES_PATH1.'gallery/'.$file; ?>" title="<?php echo $file; ?>"><img class="wp-post-image" width="550" height="222" alt="<?php echo $file; ?>" src="<?php echo SITE_URL.$thumb; ?>" itemprop="image"><br/><br/></a>
+                                                                    <a class="hover_icon hover_icon_view" href="<?php echo MEDIA_FILES_PATH1.'gallery/'.$file; ?>" title="<?php echo $file; ?>"><img class="wp-post-image" style="width:300px; height: 225px" alt="<?php echo $file; ?>" src="<?php echo SITE_URL.$thumb; ?>" itemprop="image"><br/><br/></a>
                                                                 </div>
                                                             </div>
                                                         </div><?php }} ?>
