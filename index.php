@@ -27,7 +27,7 @@ if(isset($_POST['submit'])){
 
     if(count($errorArr) < 1)   {
         $emailAddress = COMPANY_EMAIL;//iadet910@iadet.net
-    if(empty($subject) || $subject=='') $subject = "Inquiry Message From: $name";	
+    if(empty($subject) || $subject=='') $subject = "Inquiry Message From: $name - $phone";	
         $transport = Swift_MailTransport::newInstance();
         $message = Swift_Message::newInstance();
         $message->setTo(array($emailAddress => WEBSITE_AUTHOR));
