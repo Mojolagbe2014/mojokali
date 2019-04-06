@@ -22,3 +22,4 @@ define("COMPANY_OPEN_HOURS", Setting::getValue($dbObj, 'COMPANY_OPEN_HOURS') ? t
 define("SETTINGS_PANEL", Setting::getValue($dbObj, 'SETTINGS_PANEL') ? trim(stripcslashes(strip_tags(Setting::getValue($dbObj, 'SETTINGS_PANEL')))) : '');
 define("SLIDER_SPEED", Setting::getValue($dbObj, 'SLIDER_SPEED') ? trim(stripcslashes(strip_tags(Setting::getValue($dbObj, 'SLIDER_SPEED')))) : 5000);
 define("WARRANTY", Setting::getValue($dbObj, 'WARRANTY') ? trim(stripcslashes(strip_tags(Setting::getValue($dbObj, 'WARRANTY')))) : '');
+define("GOOGLE_MAPS_API_KEY", Setting::getValue($dbObj, 'GOOGLE_MAPS_API_KEY') ? trim(stripcslashes(strip_tags(Setting::getValue($dbObj, 'GOOGLE_MAPS_API_KEY')))) : '');

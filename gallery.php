@@ -68,9 +68,13 @@ require('includes/page-properties.php');
                                                     <div class="sc_columns columns_wrap">
                                                         <?php
                                                         $handle = opendir('media/gallery/');
+                                                        $allowedExt = ['jpg', 'png', 'bmp', 'gif', 'jpeg', 'JPG', 'JPEG'];
                                                         while($file = readdir($handle)){
-                                                            if($file !== '.' && $file !== '..' && strpos($file, '_tn.')===false && strpos($file, '.DS_Store')===false){
-                                                                $thumb = new ThumbNail("media/gallery/".$file, 300, 300);
+                                                            $pathInfo = pathinfo($file);
+                                                            $tn = $pathInfo['filename'].'_tn.'.$pathInfo['extension'];
+                                                            if($file !== '.' && $file !== '..' && strpos($file, '_tn.')===false && strpos($file, '.DS_Store')===false && in_array($pathInfo['extension'], $allowedExt)){
+                                                                
+                                                                $thumb = (!file_exists('media/gallery/thumb/'.$tn)) ? new ThumbNail("media/gallery/".$file, 300, 300) : 'media/gallery/thumb/'.$tn;
     //                                                  ?><div class="column-1_3">
                                                             <div class="sc_team_item sc_team_item_1 even">
                                                                 <div class="sc_team_item_avatar">

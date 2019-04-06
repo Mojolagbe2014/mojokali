@@ -49,11 +49,10 @@ if(isset($_POST['submit'])){
     <link rel='stylesheet' href='plugins/assets/css/settingsa7f4.css?ver=2.0.8' type='text/css' media='all' />
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800&amp;ver=4.3.2' type='text/css' media='all' />
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Raleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&amp;ver=4.3.2' type='text/css' media='all' />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Warnes" type='text/css' media='all'>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Warnes" type='text/css' media='all'>
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700&amp;ver=4.3.2' type='text/css' media='all' />
     <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css?1&amp;ver=4.2.0' type='text/css' media='all' />
     <link rel='stylesheet' href='plugins/assets/css/settingsb97d.css?ver=5.0.8.5' type='text/css' media='all' />
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css6646.css?family=Vidaloka:400|Open+Sans:300,300italic,400,400italic,700,700italic|Montserrat:300,300italic,400,400italic,700,700italic&amp;subset=latin,latin-ext' type='text/css' media='all' />
     <link rel='stylesheet' href='themes/css/fontello/css/fontello.css' type='text/css' media='all' />
     <link rel='stylesheet' href='themes/style.css' type='text/css' media='all' />
     <link rel='stylesheet' href='themes/fw/css/core.animation.css' type='text/css' media='all' />
@@ -164,9 +163,13 @@ if(isset($_POST['submit'])){
                                                    <?php
                                                     $handle = opendir('media/gallery/');
                                                     $counter = 1;
+                                                    $allowedExt = ['jpg', 'png', 'bmp', 'gif', 'jpeg', 'JPG', 'JPEG'];
                                                     while($file = readdir($handle)){
-                                                        if($file !== '.' && $file !== '..' && strpos($file, '_tn.')===false && strpos($file, '.DS_Store')===false  && $counter < 5){
-                                                            $thumb = new ThumbNail("media/gallery/".$file, 300, 300);
+                                                        $pathInfo = pathinfo($file);
+                                                        $tn = $pathInfo['filename'].'_tn.'.$pathInfo['extension'];
+                                                        if($file !== '.' && $file !== '..' && strpos($file, '_tn.')===false && strpos($file, '.DS_Store')===false  && in_array($pathInfo['extension'], $allowedExt) && $counter < 5){
+                                                                                                                      
+                                                            $thumb = (!file_exists('media/gallery/thumb/'.$tn)) ? new ThumbNail("media/gallery/".$file, 300, 300) : MEDIA_FILES_PATH1.'gallery/thumb/'.$tn;
 //                                                  ?><li class="filterall filter-home-gallery eg-personal1-wrapper eg-post-id-204" data-date="1446026885">
                                                       <!-- THE CONTAINER FOR THE MEDIA AND THE COVER EFFECTS -->
                                                       <div class="esg-media-cover-wrapper">
@@ -337,7 +340,7 @@ if(isset($_POST['submit'])){
     <div class="custom_html_section"></div>
 
     <script src="js/settings.js" type="text/javascript"></script>
-    <link rel='stylesheet' href='https://fonts.googleapis.com/cssac1c.css?family=Abril+Fatface%3Aregular&amp;ver=4.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' href='http://fonts.googleapis.com/cssac1c.css?family=Abril+Fatface%3Aregular&amp;ver=4.3.2' type='text/css' media='all' />
     <link rel='stylesheet' href='plugins/assets/css/lightboxa7f4.css?ver=2.0.8' type='text/css' media='all' />
     <link rel='stylesheet' href='themes/fw/js/swiper/swiper.css' type='text/css' media='all' />
     <link rel='stylesheet' href='themes/fw/js/core.messages/core.messages.css' type='text/css' media='all' />
@@ -353,7 +356,7 @@ if(isset($_POST['submit'])){
     <script type='text/javascript' src='themes/js/theme.init.js'></script>
     <script type='text/javascript' src='js/mediaelement/mediaelement-and-player.min0392.js?ver=2.17.0'></script>
     <script type='text/javascript' src='js/mediaelement/wp-mediaelement274c.js?ver=4.3.2'></script>
-    <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDQ27WgInDdmdUlbeM_-CsTmfY_Jx0LCyg&libraries=places,geometry'></script>
+    <script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?key=<?php echo GOOGLE_MAPS_API_KEY; ?>&libraries=places,geometry'></script>
     <script type='text/javascript' src='themes/fw/js/core.googlemap.js'></script>
     <script type='text/javascript' src='themes/fw/js/social/social-share.js'></script>
     <script type='text/javascript' src='themes/fw/js/core.debug.js'></script>

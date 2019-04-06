@@ -1,9 +1,9 @@
 -- phpMyAdmin SQL Dump
--- version 4.4.15.7
--- http://www.phpmyadmin.net
+-- version 4.4.15.9
+-- https://www.phpmyadmin.net
 --
--- Host: 127.0.0.1
--- Generation Time: Jul 23, 2018 at 10:58 AM
+-- Host: localhost
+-- Generation Time: Apr 06, 2019 at 09:53 PM
 -- Server version: 5.6.37
 -- PHP Version: 5.6.31
 
@@ -19,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `kals`
 --
+CREATE DATABASE IF NOT EXISTS `kals` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `kals`;
 
 -- --------------------------------------------------------
 
@@ -26,6 +28,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `admin`
 --
 
+DROP TABLE IF EXISTS `admin`;
 CREATE TABLE IF NOT EXISTS `admin` (
   `id` int(11) NOT NULL,
   `name` varchar(200) NOT NULL,
@@ -50,6 +53,7 @@ INSERT INTO `admin` (`id`, `name`, `email`, `username`, `password`, `role`, `dat
 -- Table structure for table `event`
 --
 
+DROP TABLE IF EXISTS `event`;
 CREATE TABLE IF NOT EXISTS `event` (
   `id` int(11) NOT NULL,
   `name` varchar(300) NOT NULL,
@@ -74,6 +78,7 @@ INSERT INTO `event` (`id`, `name`, `description`, `location`, `image`, `date_tim
 -- Table structure for table `faq`
 --
 
+DROP TABLE IF EXISTS `faq`;
 CREATE TABLE IF NOT EXISTS `faq` (
   `id` int(11) NOT NULL,
   `question` varchar(700) NOT NULL,
@@ -94,6 +99,7 @@ INSERT INTO `faq` (`id`, `question`, `answer`, `date_added`) VALUES
 -- Table structure for table `setting`
 --
 
+DROP TABLE IF EXISTS `setting`;
 CREATE TABLE IF NOT EXISTS `setting` (
   `name` varchar(200) NOT NULL,
   `value` text NOT NULL
@@ -121,6 +127,7 @@ INSERT INTO `setting` (`name`, `value`) VALUES
 ('FACEBOOK_APP_ID', '<p>0</p>\r\n'),
 ('FACEBOOK_LINK', '<p>https://www.facebook.com/kalsconcrete/</p>\r\n'),
 ('GOOGLEPLUS_LINK', '<p>https://www.plus.google.com/vienpatrickevents</p>\r\n'),
+('GOOGLE_MAPS_API_KEY', '<p><span style="font-size:13px">AIzaSyDQ27WgInDdmdUlbeM_-CsTmfY_Jx0LCyg</span></p>\n'),
 ('LINKEDIN_LINK', '<p>https://www.linkedin.com/</p>\r\n'),
 ('SLIDER_SPEED', '<p>3000</p>\r\n'),
 ('TOTAL_DISPLAYABLE_TESTIMONIAL', '<p>20</p>\r\n'),
@@ -134,6 +141,7 @@ INSERT INTO `setting` (`name`, `value`) VALUES
 -- Table structure for table `testimonial`
 --
 
+DROP TABLE IF EXISTS `testimonial`;
 CREATE TABLE IF NOT EXISTS `testimonial` (
   `id` int(11) NOT NULL,
   `content` text NOT NULL,
@@ -155,6 +163,7 @@ INSERT INTO `testimonial` (`id`, `content`, `author`, `image`) VALUES
 -- Table structure for table `user`
 --
 
+DROP TABLE IF EXISTS `user`;
 CREATE TABLE IF NOT EXISTS `user` (
   `id` int(11) NOT NULL,
   `name` varchar(300) NOT NULL,
@@ -189,6 +198,7 @@ INSERT INTO `user` (`id`, `name`, `email`, `company`, `country`, `description`, 
 -- Table structure for table `webpage`
 --
 
+DROP TABLE IF EXISTS `webpage`;
 CREATE TABLE IF NOT EXISTS `webpage` (
   `id` int(11) NOT NULL,
   `name` varchar(500) NOT NULL,

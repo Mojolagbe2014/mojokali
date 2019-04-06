@@ -7,10 +7,10 @@ DefaultLanguage en
 Options All -Indexes
 
 # Force download of files
-<FilesMatch "\.(doc|docx|xls|csv|txt|pdf)$">
- ForceType application/octet-stream
- Header set Content-Disposition attachment
-</FilesMatch>
+#<FilesMatch "\.(doc|docx|xls|csv|txt|pdf)$">
+# ForceType application/octet-stream
+# Header set Content-Disposition attachment
+#</FilesMatch>
 
 RewriteEngine on
 
